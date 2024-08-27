@@ -1,0 +1,17 @@
+{
+  "name": "t387-server-admin",
+  "version": "1.0.0",
+  "description": "\"# t387-server-admin\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "initdb": "node ./scripts/init.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  }
+}
